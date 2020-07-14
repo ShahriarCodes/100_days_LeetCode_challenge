@@ -5,7 +5,20 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        #using hashmap
+        complementMap = {}
 
+        for i in range (len(nums)):
+            num = nums[i]
+            complement = target - nums[i]
+
+            if num in complementMap:
+                return [complementMap[num] , i]
+
+            else:
+                complementMap[complement] = i
+
+    def brute_force(self, nums, target):
         for i in range(len(nums)):
 
             for j in range(i+1,len(nums)):
@@ -20,4 +33,3 @@ if __name__ == '__main__':
     instance = Solution()
     solution = instance.twoSum(nums, target)
     print(solution)
-    
