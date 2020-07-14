@@ -7,11 +7,18 @@ class Solution(object):
 
         if x >= 0:
             x_str = str(x)
-            return int(x_str[::-1])
-        else:
+            result =  int(x_str[::-1])
+        if x < 0:
             x_str = str(x * (-1))
-            return int('-'+(x_str[::-1]))
+            result =  int('-'+(x_str[::-1]))
 
+        #handling integer overflow
+        max_int = 2**31 - 1
+
+        if abs(result) > max_int:
+            return 0
+        else:
+            return result
 
 
 if __name__ == '__main__':
