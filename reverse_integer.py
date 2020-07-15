@@ -4,7 +4,15 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
+        r = 0
+        while x > 0: 
+            r = r*10
+            r += x % 10
+            x //= 10
+        return r
 
+
+    def reverse_by_string(self, x):
         if x >= 0:
             x_str = str(x)
             result =  int(x_str[::-1])
@@ -23,7 +31,7 @@ class Solution(object):
 
 if __name__ == '__main__':
 
-    x = -92
+    x = 92
     instance = Solution()
     solution = instance.reverse(x)
     print(solution)
