@@ -20,7 +20,7 @@ class Solution(object):
         'M' : 1000 }
 
         s_list = [(dict.get(char)) for char in s][::-1]
-        s_list_sum = sum(s_list)
+        # s_list_sum = sum(s_list)
 
         new_list = []
         for i, num in enumerate(s_list):
@@ -40,5 +40,3 @@ if __name__ == '__main__':
     # print('list: ', solution[0],'sum: ', solution[1] , 'new_list',  solution[2], sum(solution[2]))
     print(solution)
     # print(type(solution))
-
-[1,2][-1]
