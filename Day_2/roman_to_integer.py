@@ -32,6 +32,21 @@ class Solution(object):
         return sum(new_list)
         # return s_list, s_list_sum, new_list
 
+
+    def romanToInt_faster(self, s: str) -> int:
+        val_map = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+
+        total = 0
+
+        s = s.replace("IV", "IIII").replace("IX", "VIIII")
+        s = s.replace("XL", "XXXX").replace("XC", "LXXXX")
+        s = s.replace("CD", "CCCC").replace("CM", "DCCCC")
+
+        for char in s:
+            total += val_map[char]
+
+        return total
+
 if __name__ == '__main__':
 
     x = 'MCMXCIV'
