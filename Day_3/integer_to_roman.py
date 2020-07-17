@@ -1,5 +1,6 @@
-class Solution(object):
-    def intToRoman(self, num):
+class Solution:
+    def intToRoman(self, num: int) -> str:
+
         """
         :type num: int
         :rtype: str
@@ -20,8 +21,8 @@ class Solution(object):
         50   : 'L',
         90   : 'XC',
         100  : 'C',
-        400  : 'L',
-        500  : 'CD',
+        400  : 'CD',
+        500  : 'D',
         900  : 'CM',
         1000 : 'M'}
 
