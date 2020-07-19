@@ -8,7 +8,7 @@ class Solution(object):
 
         common = ''
         for i, char in enumerate(strs[0]):
-            # if char in [word[i] for j in range]
+
             if all(char == word[i] for word in strs) == True:
                 common += char
             else:
@@ -16,8 +16,7 @@ class Solution(object):
         return common
 
 
-    # def all_same(items):
-    #     return all(x == items[0] for x in items)
+
 
 
 if __name__ == '__main__':
