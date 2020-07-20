@@ -1,0 +1,52 @@
+class Solution(object):
+    def n_length_combo(self , lst, n):
+
+        if n == 0:
+            return [[]]
+
+        l =[]
+        for i in range(0, len(lst)):
+
+            m = lst[i]
+            remLst = lst[i + 1:]
+
+            for p in n_length_combo(remLst, n-1):
+                l.append([m]+p)
+
+        return l
+
+    def threeSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
+        nums = [-1, 0, 1, 2, -1, -4]
+        answer = self.n_length_combo(nums,3)
+        print(answer)
+
+
+
+        # from itertools import combinations
+        #
+        #
+        # # Get all permutations of length 2
+        # # and length 2
+        # comb = combinations(nums, 3)
+        #
+        # comb_list = []
+        # for i in list(comb):
+        #     if sum(i)==0:
+        #         comb_list.append(i)
+        # return comb_list
+
+
+if __name__ == '__main__':
+
+    input = [-1, 0, 1, 2, -1, -4]
+    instance = Solution()
+    solution = instance.threeSum(input)
+    print(solution)
+
+
+
+    
