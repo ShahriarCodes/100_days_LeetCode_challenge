@@ -1,8 +1,13 @@
-class Solution:
-    def shuffle(self, nums: List[int], n: int) -> List[int]:
+class Solution(object):
+    def shuffle(self, nums, n):
+        """
+        :type nums: List[int]
+        :type n: int
+        :rtype: List[int]
+        """
 
         new_list = []
-        for i in range(n-1):
+        for i in range(n):
             new_list.append(nums[i])
             new_list.append(nums[i+n])
 
@@ -15,4 +20,4 @@ if __name__ == '__main__':
     n = 3
     instance = Solution()
     solution = instance.shuffle(nums , n)
-    print(type(solution))
+    print(solution)
