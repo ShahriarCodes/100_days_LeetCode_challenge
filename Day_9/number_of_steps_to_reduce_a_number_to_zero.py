@@ -1,7 +1,7 @@
 class Solution:
     def numberOfSteps (self, num: int) -> int:
 
-        count = 0
+        step_count = 0
         for i in range(num):
             if num != 0:
 
@@ -12,11 +12,18 @@ class Solution:
                 else:
                     print(f'{num} is odd; subtract 1 and obtain {num - 1}')
                     num -= 1
-                    
 
-                count+= 1
+                step_count += 1
 
             else:
                 break
 
-        return count
+        return step_count
+
+
+if __name__ == '__main__':
+
+    n = 14
+    instance = Solution()
+    solution = instance.numberOfSteps(n)
+    print(solution)
