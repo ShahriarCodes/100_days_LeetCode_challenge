@@ -5,17 +5,19 @@ class Solution(object):
         :rtype: int
         """
         lst = []
+        index = []
         #check if ith num is greater than the following num
         for i in range(1, len(nums)):
-            if nums[i] <= nums[i-1] :
-                lst.append(i)
+            if nums[i] < nums[i-1] :
+                lst.append(nums[i])
+                index.append(i)
 
-        if len(lst) > 0:
-            length = lst[-1] - lst[0] + 2
-        else:
-            length  = 0
+        # if len(lst) > 0:
+        #     length = lst[-1] - lst[0] + 2
+        # else:
+        #     length  = 0
 
-        return  length
+        return  lst, index
 
 
 if __name__ == '__main__':
