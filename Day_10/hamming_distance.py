@@ -25,7 +25,7 @@ class Solution(object):
             binary_x = (len_y - len_x)* '0' + binary_x
 
         counter = 0
-        for i in range(len_x):
+        for i in range(len(binary_x)):
             if binary_x[i] != binary_y[i]:
                 counter += 1
 
@@ -33,9 +33,19 @@ class Solution(object):
 
         return counter
 
+class Solution:
+    def hammingDistance_short_solution(self, x: int, y: int) -> int:
 
+        res=x^y
+        res_bin = bin(res).split('b')[1]
 
+        cnt=0
 
+        for i in range(len(res_bin)):
+            if res_bin[i]=='1':
+                cnt+=1
+
+        return cnt
 
 if __name__ == '__main__':
 
