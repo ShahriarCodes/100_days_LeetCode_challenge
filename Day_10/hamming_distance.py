@@ -33,7 +33,7 @@ class Solution(object):
 
         return counter
 
-class Solution:
+
     def hammingDistance_short_solution(self, x: int, y: int) -> int:
 
         res=x^y
@@ -47,10 +47,16 @@ class Solution:
 
         return cnt
 
+
+    def hammingDistance_one_liner(self, x, y):
+        return bin(x^y).count('1')
+
+
 if __name__ == '__main__':
 
     x = 1
     y = 4
     instance = Solution()
-    solution = instance.hammingDistance(x , y)
-    print(solution)
+    solution_me = instance.hammingDistance(x , y)
+    solution_short = instance.hammingDistance_short_solution(x, y)
+    solution_one_liner = instance.hammingDistance_one_liner(x, y)
