@@ -1,13 +1,28 @@
-class Solution:
-    def decompressRLElist(self, nums: List[int]) -> List[int]:
+class Solution(object):
+    def decompressRLElist(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        new_list = []
+        range_ = int(len(nums)/2)
 
+        for i in range(range_):
+            temp_list = []
+            freq = nums[2*i]
+            val  =  nums[2*i+1]
+            temp_list.append(val)
+            new_list = new_list + temp_list*freq
 
+        return new_list
 
 
 if __name__ == '__main__':
 
-    nums = [2,5,1,3,4,7]
-    n = 3
+    nums = [1,2,3,4]
+
     instance = Solution()
-    solution = instance.shuffle(nums , n)
+    solution = instance.decompressRLElist(nums)
     print(solution)
+
+[]+[1]
