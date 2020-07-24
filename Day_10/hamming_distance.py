@@ -19,7 +19,10 @@ class Solution(object):
         len_y = len(binary_y)
 
         if len_x > len_y:
-            binary_y = str((len_x - len_y)*0) + () 
+            binary_y = (len_x - len_y)* '0' + binary_y
+
+        if len_x < len_y:
+            binary_x = (len_y - len_x)* '0' + binary_x
 
         return binary_x , binary_y
 
