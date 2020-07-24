@@ -24,7 +24,14 @@ class Solution(object):
         if len_x < len_y:
             binary_x = (len_y - len_x)* '0' + binary_x
 
-        return binary_x , binary_y
+        counter = 0
+        for i in range(len_x):
+            if binary_x[i] != binary_y[i]:
+                counter += 1
+
+
+
+        return counter
 
 
 
