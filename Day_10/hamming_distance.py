@@ -53,10 +53,10 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-
+print(solution)
     x = 1
     y = 4
     instance = Solution()
-    solution_me = instance.hammingDistance(x , y)
-    solution_short = instance.hammingDistance_short_solution(x, y)
-    solution_one_liner = instance.hammingDistance_one_liner(x, y)
+    %timeit solution_me = instance.hammingDistance(x , y)
+    %timeit solution_short = instance.hammingDistance_short_solution(x, y)
+    %timeit solution_one_liner = instance.hammingDistance_one_liner(x, y)
