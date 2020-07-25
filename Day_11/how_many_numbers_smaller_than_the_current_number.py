@@ -11,9 +11,21 @@ class Solution(object):
             count.append(len([num_ for num_ in nums if num > num_ ]))
         return count
 
-
-
-
+    def smallerNumbersThanCurrent_Fast(self, nums: List[int]) -> List[int]:
+        d = {}
+        for i in range(101):
+            d[i] = 0
+        for num in nums:
+            d[num] += 1
+        prev = 0
+        for item in d:
+            if d[item] != 0:
+                temp = d[item]
+                d[item] = prev
+                prev += temp
+        for i in range(len(nums)):
+            nums[i] = d[nums[i]]
+        return nums
 
 
 if __name__ == '__main__':
