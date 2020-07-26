@@ -9,6 +9,16 @@ class Solution:
 
         return count
 
+    def balancedStringSplit_easy(self, s: str) -> int:
+            balancedCount = count = 0
+            for char in s:
+                if char == 'L':
+                    count += 1
+                elif char == 'R':
+                    count -= 1
+                if count == 0:
+                    balancedCount += 1
+            return balancedCount
 
 
 
