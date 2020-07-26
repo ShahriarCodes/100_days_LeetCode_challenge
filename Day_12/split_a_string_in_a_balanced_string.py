@@ -28,6 +28,3 @@ if __name__ == '__main__':
     instance = Solution()
     solution = instance.balancedStringSplit(input)
     print(solution)
-
-
-'RLLRLRLR'.count('R').count('L')
