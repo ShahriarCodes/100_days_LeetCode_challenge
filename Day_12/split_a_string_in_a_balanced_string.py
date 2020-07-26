@@ -3,10 +3,10 @@ class Solution:
         count = 0
         j = 0
         for i in range(2, len(s)+1, 2):
-            print(s[j:i])
             if  s[j:i].count('L') == s[j:i].count('R'):
                 count += 1
                 j = i
+
         return count
 
 
@@ -14,7 +14,7 @@ class Solution:
 
 if __name__ == '__main__':
 
-    input = 'RLLRLRRL'
+    input = "RLRRRLLRLL"
     instance = Solution()
     solution = instance.balancedStringSplit(input)
     print(solution)
