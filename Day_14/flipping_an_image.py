@@ -36,8 +36,10 @@ class Solution(object):
     #             l += 1
     #             r -= 1
     #     return A
+    def flipAndInvertImage_oneliner(self, A: List[List[int]]) -> List[List[int]]:
 
-        
+        return [list(reversed([1 if j==0 else 0 for j in i])) for i in A]
+
 if __name__ == '__main__':
 
     input =  [[1,1,0],[1,0,1],[0,0,0]]
