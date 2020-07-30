@@ -21,3 +21,8 @@
   1. Valid parenthesis
 
   [Day_4]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_4
+
+### [Day_5]:
+  1. Longest common prefix
+
+  [Day_4]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_5
