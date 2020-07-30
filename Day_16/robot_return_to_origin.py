@@ -13,18 +13,29 @@ class Solution(object):
                 position[0] += x_axis[move]
             if move in y_axis:
                 position[1] += y_axis[move]
-        print(position)
+
         if position == [0,0]:
             return True
         else:
             return False
 
+    def judgeCircle_fast(self, moves):
 
+        if 'U' or 'D' in moves:
+            if moves.count('U') != moves.count('D'):
+                return False
+
+        if 'L' or 'R' in moves:
+            if moves.count('L') != moves.count('R'):
+                return False
+
+        return True
 
 
 if __name__ == '__main__':
 
     input = "ULRD"
     instance = Solution()
-    solution = instance.judgeCircle(input)
+    %timeit solution = instance.judgeCircle(input)
+    # %timeit solution2 = instance.judgeCircle_fast(input)
     print(solution)
