@@ -26,3 +26,35 @@
   1. Longest common prefix
 
   [Day_5]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_5
+
+### [Day_6]:
+  1. 3Sum
+
+  [Day_6]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_6
+  
+### [Day_7]:
+  1. Running Sum
+  2. Jewel and Stones
+  3. Kids with greatest number of candies
+  4. Lowercase
+  5. Defanging IP address
+
+  [Day_7]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_7
+
+### [Day_8]:
+  1. Shuffle the array
+
+  [Day_8]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_8
+
+### [Day_9]:
+  1. Number of steps to reduce a number to zero
+  2. Number of good pairs
+
+  [Day_9]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_9
+
+### [Day_10]:
+  1. Decompress run length encoded list
+  2. Hamming distance
+  3. Subtract the product and sum of digits of an integer
+
+  [Day_10]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_10
