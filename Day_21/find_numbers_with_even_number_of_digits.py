@@ -4,16 +4,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        
-
-
+        output = 0
+        for num in nums:
+            if len(str(num)) % 2 == 0:
+                output +=1
+        return output
 
 
 if __name__ == '__main__':
 
-    nums = [1,2,3,4,0]
-    index = [0,1,2,3,0]
+    nums = [555,901,482,1771]
     instance = Solution()
-    solution = instance.createTargetArray(nums, index)
+    solution = instance.findNumbers(nums)
 
     print(solution)
