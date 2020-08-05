@@ -4,12 +4,30 @@ class Solution(object):
         :type S: str
         :rtype: str
         """
+        count = 0
+        new_index = 0
+        stack = []
 
+        for index , bracket in enumerate(S):
+            if bracket == '(':
+                count += 1
+            if bracket == ')':
+                count -=1
+            if count == 0:
+                # print (S[new_index:index+1],'\n')
+                stack += [S[new_index:index+1]]
+                new_index = index + 1
+
+        output = ''
+        for elem in stack:
+            output += elem[1:-1]
+            # print(output)
+        return output
 
 
 if __name__ == '__main__':
 
-    nums = [555,901,482,1771]
+    nums = "()()"
     instance = Solution()
     solution = instance.removeOuterParentheses(nums)
 
