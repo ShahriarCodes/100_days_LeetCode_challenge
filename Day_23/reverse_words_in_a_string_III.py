@@ -16,8 +16,6 @@ class Solution:
             reverseWords = lambda self, s: ' '.join([x[::-1] for x in s.split(' ')])
 
 
-
-
 if __name__ == '__main__':
 
     nums = "Let's take LeetCode contest"
