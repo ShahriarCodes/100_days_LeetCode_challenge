@@ -12,6 +12,8 @@ class Solution:
         return final
 
 
+        def reverseWords_oneliner(self, s: str) -> str:
+            reverseWords = lambda self, s: ' '.join([x[::-1] for x in s.split(' ')])
 
 
 
