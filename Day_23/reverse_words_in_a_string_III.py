@@ -23,4 +23,3 @@ if __name__ == '__main__':
     solution = instance.reverseWords(nums)
 
     print(solution)
-"Let's take LeetCode contest".pop()
