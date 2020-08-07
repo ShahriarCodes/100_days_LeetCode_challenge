@@ -6,6 +6,7 @@ class Solution(object):
         """
         len_points = len(points)
         time  = 0
+        dx , dy = 0 , 0
         for i in range(1, len_points):
             dx = abs(points[i][0] - points[i-1][0])
             dy = abs(points[i][1] - points[i-1][1])
@@ -15,12 +16,12 @@ class Solution(object):
             else:
                 time += dy
 
-
+        return time
 
 
 if __name__ == '__main__':
 
-    points = [[1,1],[3,4],[-1,0]]
+    points = [[3,2],[-2,2]]
     instance = Solution()
     solution = instance.minTimeToVisitAllPoints(points)
 
