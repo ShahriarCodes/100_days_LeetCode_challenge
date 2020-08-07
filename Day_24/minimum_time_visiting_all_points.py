@@ -7,11 +7,11 @@ class Solution(object):
 
 
 
-        
+
 if __name__ == '__main__':
 
-    nums = "Let's take LeetCode contest"
+    points = [[1,1],[3,4],[-1,0]]
     instance = Solution()
-    solution = instance.reverseWords(nums)
+    solution = instance.minTimeToVisitAllPoints(points)
 
     print(solution)
