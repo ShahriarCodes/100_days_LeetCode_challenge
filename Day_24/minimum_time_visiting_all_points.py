@@ -5,10 +5,15 @@ class Solution(object):
         :rtype: int
         """
         len_points = len(points)
-        # j = 0
+        time  = 0
         for i in range(1, len_points):
-            for j in range(2):
-                if points[i][j] > points[i-1][j]
+            dx = abs(points[i][0] - points[i-1][0])
+            dy = abs(points[i][1] - points[i-1][1])
+
+            if dx > dy:
+                time += dx
+            else:
+                time += dy
 
 
 
