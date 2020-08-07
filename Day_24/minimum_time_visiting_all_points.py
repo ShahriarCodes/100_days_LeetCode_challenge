@@ -4,6 +4,11 @@ class Solution(object):
         :type points: List[List[int]]
         :rtype: int
         """
+        len_points = len(points)
+        # j = 0
+        for i in range(1, len_points):
+            for j in range(2):
+                if points[i][j] > points[i-1][j]
 
 
 
