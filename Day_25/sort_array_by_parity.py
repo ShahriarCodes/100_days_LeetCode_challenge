@@ -12,4 +12,12 @@ class Solution(object):
                 lst.insert(0, num)
             else:
                 lst.insert(1,num)
-        return lst   
+        return lst
+
+if __name__ == '__main__':
+
+    points = [[3,2],[-2,2]]
+    instance = Solution()
+    solution = instance.minTimeToVisitAllPoints(points)
+
+    print(solution)
