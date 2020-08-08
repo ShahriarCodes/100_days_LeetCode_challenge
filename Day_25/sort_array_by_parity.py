@@ -4,10 +4,12 @@ class Solution(object):
         :type A: List[int]
         :rtype: List[int]
         """
-        lst = []
+        evenList = []
+        odd_List
         for num in A:
             if num == 0:
-                lst.insert(0, num)
+                evenList.append(num)
+                print(num)
             elif num%2 ==0:
                 lst.insert(0, num)
             else:
@@ -17,6 +19,7 @@ class Solution(object):
 if __name__ == '__main__':
 
     A = [0,2,1]
+    A = [0,1,2,3,4,5,69,8]
     instance = Solution()
     solution = instance.sortArrayByParity(A)
 
