@@ -16,8 +16,8 @@ class Solution(object):
 
 if __name__ == '__main__':
 
-    points = [[3,2],[-2,2]]
+    A = [0,2,1]
     instance = Solution()
-    solution = instance.minTimeToVisitAllPoints(points)
+    solution = instance.minTimeToVisitAllPoints(A)
 
     print(solution)
