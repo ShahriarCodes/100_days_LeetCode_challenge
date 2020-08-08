@@ -18,6 +18,6 @@ if __name__ == '__main__':
 
     A = [0,2,1]
     instance = Solution()
-    solution = instance.minTimeToVisitAllPoints(A)
+    solution = instance.sortArrayByParity(A)
 
     print(solution)
