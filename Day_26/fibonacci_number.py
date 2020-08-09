@@ -12,8 +12,8 @@ class Solution(object):
 
 if __name__ == '__main__':
 
-    points = [[3,2],[-2,2]]
+    N = 5
     instance = Solution()
-    solution = instance.fib(points)
+    solution = instance.fib(N)
 
     print(solution)
