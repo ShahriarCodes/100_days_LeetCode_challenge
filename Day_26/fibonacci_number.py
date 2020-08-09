@@ -14,6 +14,6 @@ if __name__ == '__main__':
 
     points = [[3,2],[-2,2]]
     instance = Solution()
-    solution = instance.minTimeToVisitAllPoints(points)
+    solution = instance.fib(points)
 
     print(solution)
