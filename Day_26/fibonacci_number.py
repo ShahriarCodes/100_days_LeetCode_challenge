@@ -12,7 +12,7 @@ class Solution(object):
 
 if __name__ == '__main__':
 
-    N = 5
+    N = 8
     instance = Solution()
     solution = instance.fib(N)
 
