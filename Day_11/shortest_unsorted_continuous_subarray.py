@@ -31,16 +31,22 @@ class Solution(object):
         lst = []
         index = []
         #for every case except the last one
-        for i in range(0, len(set_nums)-1):
-            if set_nums[i] > set_nums[i+1] :
+        for i in range(1, len(set_nums)):
+            if set_nums[i] < set_nums[i-1] :
                 lst.append(set_nums[i])
                 index.append(i)
         #for the last case
-        if set_nums[-1] < set_nums[len(set_nums)-2] :
-            lst.append(set_nums[-1])
-            index.append(len(set_nums)-1)
+        if set_nums[0] > set_nums[1] :
+            lst.insert(0,set_nums[0])
+            index.insert(0,0)
 
-        return count_dict , set_nums, lst, index
+        unsorted = set_nums[index[0]:index[-1]+1]
+        count = 0
+        for i, num in enumerate(unsorted):
+            count += count_dict[num]
+        print(count)
+
+        print( 'count_dict: ' count_dict , 'set_nums: ', set_nums, 'lst', lst, index, set_nums[index[0]:index[-1]+1])
 
 if __name__ == '__main__':
 
