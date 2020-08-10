@@ -16,8 +16,8 @@ class Solution(object):
 
 if __name__ == '__main__':
 
-    N = 8
+    A = [1,2,2,3,5,6]
     instance = Solution()
-    solution = instance.fib(N)
+    solution = instance.repeatedNTimes(A)
 
     print(solution)
