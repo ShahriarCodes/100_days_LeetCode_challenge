@@ -58,3 +58,10 @@
   - Subtract the product and sum of digits of an integer
 
   [Day_10]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_10
+
+
+### [Day_11]:
+  - How many numbers ssmaller than the current number
+  - Shortest unsorted continuous array
+
+  [Day_11]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_11
