@@ -19,18 +19,35 @@ class Solution(object):
         #
         # return  lst, index
         count_dict = {}
+        set_nums = []
         for num in nums:
-            if num not count_dict:
+            if num not in count_dict:
                 count_dict[num] = 1
+                set_nums.append(num)
             else:
                 count_dict[num] += 1
 
+
+        lst = []
+        index = []
+        #for every case except the last one
+        for i in range(0, len(set_nums)-1):
+            if set_nums[i] > set_nums[i+1] :
+                lst.append(set_nums[i])
+                index.append(i)
+        #for the last case
+        if set_nums[-1] < set_nums[len(set_nums)-2] :
+            lst.append(set_nums[-1])
+            index.append(len(set_nums)-1)
+
+        return count_dict , set_nums, lst, index
+
 if __name__ == '__main__':
 
-    nums = [2,6,4,8,10,9,9]
-    nums = [1,3,2,2,2]
-    nums = [4,2,2,2,3,1,9]
-    nums = [1,2,3,3,3]
+    nums1 = [2,6,4,8,10,9,9]
+    nums2 = [1,3,2,2,2]
+    nums3 = [4,2,2,2,3,1,9]
+    nums4 = [1,2,3,3,3]
     instance = Solution()
-    solution = instance.findUnsortedSubarray(nums)
+    solution = instance.findUnsortedSubarray(nums3)
     print(solution)
