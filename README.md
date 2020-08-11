@@ -65,3 +65,8 @@
   - Shortest unsorted continuous array
 
   [Day_11]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_11
+
+### [Day_12]:
+  - Split a string in a balanced string
+
+  [Day_12]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_12
