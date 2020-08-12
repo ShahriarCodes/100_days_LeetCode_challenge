@@ -75,3 +75,8 @@
   - Unique Morse Code words
 
   [Day_13]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_13
+
+### [Day_14]:
+  - Flipping an image
+
+  [Day_14]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_14
