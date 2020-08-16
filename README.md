@@ -80,3 +80,8 @@
   - Flipping an image
 
   [Day_14]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_14
+  
+### [Day_15]:
+  - XOR operation in an array 
+
+  [Day_15]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_15
