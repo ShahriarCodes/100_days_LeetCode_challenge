@@ -36,6 +36,83 @@ class Solution(object):
 
         return perimeter
 
+# working solution
+class Solution:
+    def islandPerimeter(self, grid: List[List[int]]) -> int:
+
+        if not grid or not grid[0]:
+            return 0
+
+        row, col = len(grid), len(grid[0])
+        hashMap = dict()
+
+
+        for i in range(row):
+            for j in range(col):
+
+                if grid[i][j] == 1:
+
+                    hashMap[(i, j)] = 4
+
+                    if i == j == 0:
+                        continue
+
+                    if (i, j-1) in hashMap:
+                        hashMap[(i, j)] -= 2
+
+                    if (i-1, j) in hashMap:
+                        hashMap[(i, j)] -= 2
+
+        return sum(hashMap.values())
+
+# another solution
+class Solution:
+    def islandPerimeter(self, grid: List[List[int]]) -> int:
+
+		#array of number of edges for each grid. You can also keep a rolling sum here.
+        num_of_edges = []
+
+		#iterating over list of lists
+        for i in range(len(grid)):
+            for j in range(len(grid[i])):
+                edges = 0
+
+				#if the grid value is 1
+                if grid[i][j] == 1:
+                    edges=4
+
+					#we check neighboring grids to see if values are one. I have used try except for ease but you can add an additional if condition to overcome exceptions
+                    try:
+                        if grid[i+1][j] ==1:
+                            edges-=1
+                    except:
+                        pass
+
+                    try:
+                        if grid[i][j+1] ==1:
+                            edges-=1
+                    except:
+                        pass
+
+					#we check if j-1>=0 and i-1>=0 to check for the edges
+                    try:
+                        if j-1>=0 and grid[i][j-1] ==1:
+                            edges-=1
+                    except:
+                        pass
+
+                    try:
+                        if i-1>=0 and grid[i-1][j] ==1:
+                            edges-=1
+                    except:
+                        pass
+
+                num_of_edges.append(edges)
+
+	   #return the sum
+	   return(sum(num_of_edges))
+
+
 if __name__ == '__main__':
 
     A = [[0,1,0,0],
