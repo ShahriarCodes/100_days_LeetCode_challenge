@@ -4,17 +4,17 @@ class Solution(object):
         :type S: str
         :rtype: List[int]
         """
-        if S[0] == 'I':
-            A = [0]
-        elif S[0] == 'D':
-            A = [len(S)]
-
-        for i, s in enumerate(S):
+        low = 0
+        high = len(S)
+        A = []
+        for s in S:
             if s == 'I':
-                A.append(A[i]+1)
-            if s == 'D':
-                A.append(A[i]-1)
-        return A
+                A.append(low)
+                low += 1 
+            elif s == 'D':
+                A.append(high)
+                high -= 1
+        return A + [low]
 
 
 
