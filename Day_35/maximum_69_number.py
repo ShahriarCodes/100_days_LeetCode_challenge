@@ -20,6 +20,7 @@ class Solution(object):
         new_lst.append(num)
         return max(new_lst)
 
+
 if __name__ == '__main__':
 
     num = 9669
@@ -27,6 +28,3 @@ if __name__ == '__main__':
     solution = instance.maximum69Number(num)
 
     print(solution)
-
-list("45454")
-''.join(['1','2'])
