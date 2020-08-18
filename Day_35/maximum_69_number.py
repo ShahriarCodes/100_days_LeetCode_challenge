@@ -5,22 +5,28 @@ class Solution(object):
         :rtype: int
         """
         str_num = str(num)
-        lst =  []
-        for i in range(len(str_num)):
-            new_num = str_num
-            if str_num[i] == 9:
-                new_num[i] = 6
-                lst.append(new_num)
+        lst_num = list(str_num)
+        new_lst =  []
+        for i in range(len(lst_num)):
+            new_num = lst_num[:]
+            if lst_num[i] == '9':
+                new_num[i] = '6'
+                new_lst.append(int("".join(new_num)))
 
-            elif str_num[i] == 6:
-                new_num[i] = 9
-                lst.append(new_num)
-        return max(lst)
+            elif lst_num[i] == '6':
+                new_num[i] = '9'
+                new_lst.append(int("".join(new_num)))
+
+            print(new_num)
+        return max(new_lst)
 
 if __name__ == '__main__':
 
-    num = 9699
+    num = 9669
     instance = Solution()
-    solution = instance.maximum69Number(S)
+    solution = instance.maximum69Number(num)
 
     print(solution)
+
+list("45454")
+''.join(['1','2'])
