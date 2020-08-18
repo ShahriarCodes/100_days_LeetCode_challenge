@@ -17,7 +17,7 @@ class Solution(object):
                 new_num[i] = '9'
                 new_lst.append(int("".join(new_num)))
 
-            print(new_num)
+        new_lst.append(num)
         return max(new_lst)
 
 if __name__ == '__main__':
