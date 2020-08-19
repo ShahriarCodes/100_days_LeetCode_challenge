@@ -12,6 +12,9 @@ class Solution(object):
         itr = head
         llstr = ''
         while itr:
+            llstr += str(itr.val)
 
             itr = itr.next
         print(llstr)
+
+        return int(llstr, 2)
