@@ -4,6 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
+        ## creating hashmap
         # alphabet = '2abcdefghijklmnopqrstuvwxyz'
         # hashmap = {}
         # for i in range(1,27):
