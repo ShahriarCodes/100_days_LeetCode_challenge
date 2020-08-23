@@ -1,6 +1,5 @@
-This repo contains Easy and Medium level problems from Leetcode. 
-
 # 100_days_LeetCode_challenge
+This repo contains Easy and Medium level problems from Leetcode.
 
 ### [Day_1]:
   - Two Sum (Easy)
