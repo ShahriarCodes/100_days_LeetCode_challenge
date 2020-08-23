@@ -83,6 +83,3 @@ if __name__ == '__main__':
     solution = instance.findWords(nums)
 
     print(solution)
-
-'qwertyuiop'
-'L'.lower()
