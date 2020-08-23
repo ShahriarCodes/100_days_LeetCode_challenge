@@ -72,10 +72,6 @@ class Solution:
         return answer
 
 
-
-
-
-
 if __name__ == '__main__':
 
     nums =  ["Hello", "Alaska", "Dad", "Peace",'Qwerty']
