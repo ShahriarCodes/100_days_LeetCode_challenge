@@ -1,3 +1,5 @@
+This repo contains Easy and Medium level problems from Leetcode. 
+
 # 100_days_LeetCode_challenge
 
 ### [Day_1]:
