@@ -1,26 +1,32 @@
 class Solution(object):
     def buildArray(self, target, n):
         """
-        :type s: str
-        :type indices: List
-        :rtype: str
+        :type target: List[int]
+        :type indices: int
+        :rtype: List[str]
         """
         final = []
-        for i in range(n):
-            if i in target:
+        array = []
+        for i in range(1, n+1):
+            if array == target:
+                break
+
+            elif i in target:
                 final.append('Push')
-            else:
+                array.append(i)
+
+            elif i not in target:
                 final.append('Push')
                 final.append('Pop')
-        return final    
+        return final
 
 
 if __name__ == '__main__':
 
-    target = [1,3]
-    n = 3
+    target = [2,3,4]
+    n = 4
 
     instance = Solution()
-    solution = instance.restoreString(target, n)
+    solution = instance.buildArray(target, n)
 
     print(solution)
