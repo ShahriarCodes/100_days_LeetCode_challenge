@@ -21,6 +21,7 @@ class Solution(object):
         return final
 
 
+
 if __name__ == '__main__':
 
     target = [2,3,4]
