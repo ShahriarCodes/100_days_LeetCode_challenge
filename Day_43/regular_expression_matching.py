@@ -36,7 +36,7 @@ class Solution(object):
 
 if __name__ == '__main__':
 
-    s = "aa"
+    s = "aab"
     p = "a*"
     instance = Solution()
     solution = instance.isMatch(s, p)
