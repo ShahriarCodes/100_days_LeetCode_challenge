@@ -17,16 +17,18 @@ class Solution(object):
         i = 0
         new_string = []
         for char, expr in zip(s,p):
-            i += 1
+
+            print(char, expr)
             if char == expr:
                 new_string.append(char)
 
             elif expr == '*':
-                new_string.append(expr[i-1])
+                new_string.append(p[i-1])
 
             elif expr == '.':
                 new_string.append(char)
 
+            i += 1
         return new_string
 
 
