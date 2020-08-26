@@ -5,12 +5,20 @@ class Solution(object):
         :type needle: str
         :rtype: int
         """
-        
+        if needle == '':
+            return 0
+
+        if needle in haystack:
+            return haystack.index(needle)
+
+        else:
+            return -1
+
 if __name__ == '__main__':
 
-    s = "aab"
-    p = "a*"
+    haystack = "aaaaa"
+    needle = "bba"
     instance = Solution()
-    solution = instance.isMatch(s, p)
+    solution = instance.strStr(haystack, needle)
 
     print(solution)
