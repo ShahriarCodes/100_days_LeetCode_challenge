@@ -96,3 +96,9 @@ This repo contains Easy and Medium level problems from Leetcode.
   - Single number 
 
   [Day_17]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_17
+  
+  ### [Day_18]:
+  - Self dividing number
+
+  [Day_18]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_18
+  
