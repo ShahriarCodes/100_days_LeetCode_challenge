@@ -1,24 +1,17 @@
 class Solution(object):
-    def strStr(self, haystack, needle):
+    def intersection(self, nums1, nums2):
         """
-        :type haystack: str
-        :type needle: str
-        :rtype: int
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: List[int]
         """
-        if needle == '':
-            return 0
 
-        if needle in haystack:
-            return haystack.index(needle)
-
-        else:
-            return -1
 
 if __name__ == '__main__':
 
-    haystack = "aaaaa"
-    needle = "bba"
+    nums1 = [1,2,2,1]
+    nums2 = [2,2]
     instance = Solution()
-    solution = instance.strStr(haystack, needle)
+    solution = instance.intersection(nums1, nums2)
 
     print(solution)
