@@ -10,3 +10,12 @@ class Solution(object):
             if num in nums2 and num not in subset:
                 subset.append(num)
         return subset
+
+if __name__ == '__main__':
+
+    nums1 = [1,2,2,1]
+    nums2 = [2,2]
+    instance = Solution()
+    solution = instance.intersection(nums1, nums2)
+
+    print(solution)
