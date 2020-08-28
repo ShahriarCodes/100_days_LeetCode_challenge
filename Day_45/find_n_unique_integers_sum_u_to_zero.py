@@ -25,4 +25,3 @@ if __name__ == '__main__':
     solution = instance.sumZero(n)
 
     print(solution)
-    
