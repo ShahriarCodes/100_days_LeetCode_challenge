@@ -13,4 +13,10 @@ class Solution(object):
                 dict[num] += 1
                 return True
         return False
-                
+               
+    def cotains_duplicate_faster(self,nums):
+        len_nums = len(nums)
+        expected = (len_nums * (le_nums +1)) //2
+        actual = sum(nums)
+
+        return expected - actual
