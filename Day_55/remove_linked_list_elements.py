@@ -23,4 +23,19 @@ class Solution(object):
             cur.next = ListNode(num)
             cur = cur.next
         return dummy.next
+ 
+# O(n) time, O(1) space
+class Solution:
+    def removeElements(self, head: ListNode, val: int) -> ListNode:
         
+        current_node = ListNode(-1)
+        current_node.next = head
+        head = current_node
+        
+        while current_node.next != None:
+            if current_node.next.val == val:
+                current_node.next = current_node.next.next
+            else:
+                current_node = current_node.next 
+        return head.next 
+ 
