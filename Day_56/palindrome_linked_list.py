@@ -1,75 +1,28 @@
 # Definition for singly-linked list.
-# class ListNode(object):
+# class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution(object):
-    def reverseList(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
-        prev_node = None
-        while head:
-            next_node = head.next
-            head.next = prev_node
-            prev_node = head
-            head = next_node
-        return prev_node
-    
-    def isPalindrome(self, head):
-        """
-        :type head: ListNode
-        :rtype: bool
-        """
-        # dummy = ListNode(-1)
-        # dummy.next = head
-        fast = head
-        slow = head
-        node = head
-        acc = 0
-        while True:
-            # node = node.next
-            slow = slow.next
-            fast = fast.next.next
-            acc += 1
-            
-            #odd case
-            if fast.next == None:
-                case = 1
-                break
-                
-            #even case
-            if fast.next.next == None:
-                case =  0
-                break
+class Solution:    
+    def isPalindrome(self, head: ListNode) -> bool:
+        if not(head) or not(head.next): return True
         
-        if case == 1:
-            reverse = self.reverseList(slow) #odd
-        if case == 0: 
-            reverse = self.reverseList(fast) #even
-            
-        print('head ::  ', head)
-        print('fast ::  ', fast)
-        print('slow :: ', slow)      
-        print('reverse :: ', reverse)
-
-        new_acc = 0
-        while True:
-            new_acc +=1
-                
-            if new_acc < acc:
-                if head.val == reverse.val:
-                    head = head.next
-                    reverse = reverse.next
-                    
-                else:
-                    return False
-                    break
-            else:
-                break
+        # Function for reversing the linked list
+        def reverseLL(head):
+            node, next_node, node.next = head, head.next, None
+            while next_node:
+                next_node.next, node, next_node = node, next_node, next_node.next                
+            return node
+              
+        # Find the middle node
+        slow, fast = head, head
+        while fast.next and fast.next.next:
+            slow, fast = slow.next, fast.next.next
+        
+        head1 = reverseLL(slow.next)
+        while head and head1:
+            if head.val!=head1.val: return False
+            head, head1 = head.next, head1.next
+        
         return True
-    
-
-            
-            
+        
