@@ -1,3 +1,4 @@
+#O(N)
 class Solution(object):
     def nextGreatestLetter(self, letters, target):
         """
@@ -9,3 +10,9 @@ class Solution(object):
             if c > target:
                 return c
         return letters[0]
+
+#O(log(N))
+class Solution(object):
+    def nextGreatestLetter(self, letters, target):
+        index = bisect.bisect(letters, target)
+        return letters[index % len(letters)]
