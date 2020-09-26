@@ -8,7 +8,8 @@ class Solution:
     def minDepth(self, root: TreeNode) -> int:
         if root is None:
             return 0
-
+        
+        depth = 0
         queue = [root]
         next_queue = []
         level = []
