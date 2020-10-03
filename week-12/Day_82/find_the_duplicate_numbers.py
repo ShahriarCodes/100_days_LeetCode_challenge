@@ -26,3 +26,12 @@ class Solution:
         for i in range(1, len(nums)):
             if nums[i] == nums[i-1]:
                 return nums[i]
+
+#using hash table, runtime updated, space degraded
+class Solution:
+    def findDuplicate(self, nums):
+        seen = set()
+        for num in nums:
+            if num in seen:
+                return num
+            seen.add(num)
