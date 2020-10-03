@@ -35,3 +35,27 @@ class Solution:
             if num in seen:
                 return num
             seen.add(num)
+
+#slow, fast pointer approach --- floyds cycle detection algorithm
+class Solution(object):
+    def findDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        slow = nums[0]
+        fast = nums[0]
+
+        slow = nums[slow]
+        fast = nums[nums[fast]]
+
+        while slow != fast:
+            slow = nums[slow]
+            fast = nums[nums[fast]]
+
+        slow = nums[0]
+        while slow != fast:
+            slow = nums[slow]
+            fast = nums[fast]
+
+        return fast
