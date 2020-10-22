@@ -1,104 +1,138 @@
 # 100_days_LeetCode_challenge
 This repo contains Easy and Medium level problems from Leetcode.
 
-### [Day_1]:
-  - Two Sum (Easy)
-  - Reverse Integer (Easy)
-  - Palinfrome Number (Easy)
-
-  [Day_1]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_1
-
-### [Day_2]:
-  - Roman To Integer
-
-  [Day_2]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_2
-
-### [Day_3]:
-  - Integer To Roman
-
-  [Day_3]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_3
-
-### [Day_4]:
-  - Valid parenthesis
-
-  [Day_4]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_4
-
-### [Day_5]:
-  - Longest common prefix
-
-  [Day_5]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_5
-
-### [Day_6]:
-  - 3Sum
-
-  [Day_6]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_6
-  
-### [Day_7]:
-  - Running Sum
-  - Jewel and Stones
-  - Kids with greatest number of candies
-  - Lowercase
-  - Defanging IP address
-
-  [Day_7]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_7
-
-### [Day_8]:
-  - Shuffle the array
-
-  [Day_8]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_8
-
-### [Day_9]:
-  - Number of steps to reduce a number to zero
-  - Number of good pairs
-
-  [Day_9]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_9
-
-### [Day_10]:
-  - Decompress run length encoded list
-  - Hamming distance
-  - Subtract the product and sum of digits of an integer
-
-  [Day_10]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_10
-
-
-### [Day_11]:
-  - How many numbers ssmaller than the current number
-  - Shortest unsorted continuous array
-
-  [Day_11]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_11
-
-### [Day_12]:
-  - Split a string in a balanced string
-
-  [Day_12]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_12
-
-### [Day_13]:
-  - Unique Morse Code words
-
-  [Day_13]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_13
-
-### [Day_14]:
-  - Flipping an image
-
-  [Day_14]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_14
-  
-### [Day_15]:
-  - XOR operation in an array 
-
-  [Day_15]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_15
-
-### [Day_16]:
-  - Robot return to origin
-
-  [Day_16]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_16
-  
-  ### [Day_17]:
-  - Single number 
-
-  [Day_17]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_17
-  
-  ### [Day_18]:
-  - Self dividing number
-
-  [Day_18]: https://github.com/shahriar100/100_days_LeetCode_challenge/tree/master/Day_18
-  
+| Week | Day | Problem Link | Solution |
+| --- | --- | --- | --- |
+| week-1 | Day_4 | --- | [valid_parentheses.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_4/valid_parentheses.py) |
+| week-1 | Day_7 | --- | [defangIPaddr.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_7/defangIPaddr.py) |
+| week-1 | Day_7 | --- | [running_sum.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_7/running_sum.py) |
+| week-1 | Day_7 | --- | [kids_with_greatest_number_of_candies.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_7/kids_with_greatest_number_of_candies.py) |
+| week-1 | Day_7 | --- | [jewel_and_stones.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_7/jewel_and_stones.py) |
+| week-1 | Day_7 | --- | [lowercase.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_7/lowercase.py) |
+| week-1 | Day_6 | --- | [3sum.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_6/3sum.py) |
+| week-1 | Day_5 | --- | [longest_common_prefix.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_5/longest_common_prefix.py) |
+| week-1 | Day_5 | --- | [problem_statement.png](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_5/problem_statement.png) |
+| week-1 | Day_5 | --- | [day_5_carbon.png](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_5/day_5_carbon.png) |
+| week-1 | Day_2 | --- | [roman_to_integer.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_2/roman_to_integer.py) |
+| week-1 | Day_3 | --- | [integer_to_roman.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_3/integer_to_roman.py) |
+| week-1 | Day_1 | --- | [two_sum.png](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_1/two_sum.png) |
+| week-1 | Day_1 | --- | [reverse_integer.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_1/reverse_integer.py) |
+| week-1 | Day_1 | --- | [README.md](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_1/README.md) |
+| week-1 | Day_1 | --- | [palindrome_number.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_1/palindrome_number.py) |
+| week-1 | Day_1 | --- | [two_sum.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-1/Day_1/two_sum.py) |
+| week-2 | Day_10 | --- | [hamming_distance.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_10/hamming_distance.py) |
+| week-2 | Day_10 | --- | [decompress_run_length_encoded_list.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_10/decompress_run_length_encoded_list.py) |
+| week-2 | Day_10 | --- | [subtract_the_product_and_sum_of_digits_of_an_integer.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_10/subtract_the_product_and_sum_of_digits_of_an_integer.py) |
+| week-2 | Day_14 | --- | [flipping_an_image.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_14/flipping_an_image.py) |
+| week-2 | Day_11 | --- | [shortest_unsorted_continuous_subarray.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_11/shortest_unsorted_continuous_subarray.py) |
+| week-2 | Day_11 | --- | [how_many_numbers_smaller_than_the_current_number.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_11/how_many_numbers_smaller_than_the_current_number.py) |
+| week-2 | Day_9 | --- | [number_of_good_pairs.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_9/number_of_good_pairs.py) |
+| week-2 | Day_9 | --- | [number_of_steps_to_reduce_a_number_to_zero.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_9/number_of_steps_to_reduce_a_number_to_zero.py) |
+| week-2 | Day_13 | --- | [unique_morse_code_words.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_13/unique_morse_code_words.py) |
+| week-2 | Day_8 | --- | [shuffle_the_array.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_8/shuffle_the_array.py) |
+| week-2 | Day_12 | --- | [split_a_string_in_a_balanced_string.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-2/Day_12/split_a_string_in_a_balanced_string.py) |
+| week-3 | Day_18 | --- | [self_dividing_number.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-3/Day_18/self_dividing_number.py) |
+| week-3 | Day_20 | --- | [create_target_array_in_the_given_order.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-3/Day_20/create_target_array_in_the_given_order.py) |
+| week-3 | Day_21 | --- | [find_numbers_with_even_number_of_digits.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-3/Day_21/find_numbers_with_even_number_of_digits.py) |
+| week-3 | Day_19 | --- | [reverse_string.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-3/Day_19/reverse_string.py) |
+| week-3 | Day_16 | --- | [robot_return_to_origin.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-3/Day_16/robot_return_to_origin.py) |
+| week-3 | Day_15 | --- | [xor_operation_in_an_array.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-3/Day_15/xor_operation_in_an_array.py) |
+| week-3 | Day_17 | --- | [single_number.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-3/Day_17/single_number.py) |
+| week-4 | Day_26 | --- | [fibonacci_number.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-4/Day_26/fibonacci_number.py) |
+| week-4 | Day_24 | --- | [minimum_time_visiting_all_points.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-4/Day_24/minimum_time_visiting_all_points.py) |
+| week-4 | Day_28 | --- | [peak_index_in_a_mountain_array.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-4/Day_28/peak_index_in_a_mountain_array.py) |
+| week-4 | Day_25 | --- | [sort_array_by_parity.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-4/Day_25/sort_array_by_parity.py) |
+| week-4 | Day_22 | --- | [remove_outermost_parenthesis.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-4/Day_22/remove_outermost_parenthesis.py) |
+| week-4 | Day_23 | --- | [reverse_words_in_a_string_III.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-4/Day_23/reverse_words_in_a_string_III.py) |
+| week-4 | Day_27 | --- | [n_repeated_element_in_size_2n_array.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-4/Day_27/n_repeated_element_in_size_2n_array.py) |
+| week-5 | Day_31 | --- | [add_digits.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-5/Day_31/add_digits.py) |
+| week-5 | Day_29 | --- | [add_binary.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-5/Day_29/add_binary.py) |
+| week-5 | Day_35 | --- | [maximum_69_number.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-5/Day_35/maximum_69_number.py) |
+| week-5 | Day_33 | --- | [island_perimeter.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-5/Day_33/island_perimeter.py) |
+| week-5 | Day_34 | --- | [di_string_match.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-5/Day_34/di_string_match.py) |
+| week-5 | Day_30 | --- | [climbing_stairs.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-5/Day_30/climbing_stairs.py) |
+| week-5 | Day_32 | --- | [add_strings.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-5/Day_32/add_strings.py) |
+| week-6 | Day_41 | --- | [shuffle_string.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_41/shuffle_string.py) |
+| week-6 | Day_39 | --- | [number_complement.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_39/number_complement.py) |
+| week-6 | Day_39 | --- | [decrypt_string_from_alphabet_to_integer_mapping.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_39/decrypt_string_from_alphabet_to_integer_mapping.py) |
+| week-6 | Day_38 | --- | [squares_of_a_sorted_array.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_38/squares_of_a_sorted_array.py) |
+| week-6 | Day_37 | --- | [search_insert_position.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_37/search_insert_position.py) |
+| week-6 | Day_37 | --- | [delete_node_in_a_linked_list.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_37/delete_node_in_a_linked_list.py) |
+| week-6 | Day_42 | --- | [build_an_array_with_Stack_operations.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_42/build_an_array_with_Stack_operations.py) |
+| week-6 | Day_36 | --- | [convert_binary_number_in_a_linked_list_to_integer.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_36/convert_binary_number_in_a_linked_list_to_integer.py) |
+| week-6 | Day_40 | --- | [keyboard_row.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-6/Day_40/keyboard_row.py) |
+| week-7 | Day_49 | --- | [house_robber.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_49/house_robber.py) |
+| week-7 | Day_46 | --- | [merge_two_sorted_list.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_46/merge_two_sorted_list.py) |
+| week-7 | Day_46 | --- | [move_zeros.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_46/move_zeros.py) |
+| week-7 | Day_48 | --- | [missing_number.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_48/missing_number.py) |
+| week-7 | Day_48 | --- | [find_all_numbers_disappeared_in_an_array.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_48/find_all_numbers_disappeared_in_an_array.py) |
+| week-7 | Day_48 | --- | [contains_duplicate.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_48/contains_duplicate.py) |
+| week-7 | Day_43 | --- | [regular_expression_matching.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_43/regular_expression_matching.py) |
+| week-7 | Day_43 | --- | [implement_strStr.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_43/implement_strStr.py) |
+| week-7 | Day_47 | --- | [add_two_numbers.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_47/add_two_numbers.py) |
+| week-7 | Day_44 | --- | [intersection_of_two_arrays.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_44/intersection_of_two_arrays.py) |
+| week-7 | Day_44 | --- | [count_negative_number_in_a_sorted_matrix.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_44/count_negative_number_in_a_sorted_matrix.py) |
+| week-7 | Day_44 | --- | [replace_elements_with_greatest_element_on_right_side.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_44/replace_elements_with_greatest_element_on_right_side.py) |
+| week-7 | Day_45 | --- | [find_n_unique_integers_sum_u_to_zero.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_45/find_n_unique_integers_sum_u_to_zero.py) |
+| week-7 | Day_45 | --- | [number_of_students_doing_homework_at_a_given_time.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-7/Day_45/number_of_students_doing_homework_at_a_given_time.py) |
+| week-8 | Day_56 | --- | [palindrome_linked_list.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_56/palindrome_linked_list.py) |
+| week-8 | Day_56 | --- | [reverse_linked_list.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_56/reverse_linked_list.py) |
+| week-8 | Day_51 | --- | [best_time_to_buy_and_sell_stock.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_51/best_time_to_buy_and_sell_stock.py) |
+| week-8 | Day_51 | --- | [.best_time_to_buy_and_sell_stock.py.swp](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_51/.best_time_to_buy_and_sell_stock.py.swp) |
+| week-8 | Day_53 | --- | [middle_of_the_linked_list.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_53/middle_of_the_linked_list.py) |
+| week-8 | Day_55 | --- | [remove_linked_list_elements.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_55/remove_linked_list_elements.py) |
+| week-8 | Day_54 | --- | [linked_list_cycle.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_54/linked_list_cycle.py) |
+| week-8 | Day_50 | --- | [maximum_subarray.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_50/maximum_subarray.py) |
+| week-8 | Day_50 | --- | [.maximum_subarray.py.swp](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_50/.maximum_subarray.py.swp) |
+| week-8 | Day_52 | --- | [range_sum_query_immutable.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-8/Day_52/range_sum_query_immutable.py) |
+| week-9 | Day_57 | --- | [remove_nth_element_from_end_of_linked_list.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-9/Day_57/remove_nth_element_from_end_of_linked_list.py) |
+| week-9 | Day_61 | --- | [find_smallest_letter_greater_than_target.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-9/Day_61/find_smallest_letter_greater_than_target.py) |
+| week-9 | Day_59 | --- | [lucky_number_in_a_matrix.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-9/Day_59/lucky_number_in_a_matrix.py) |
+| week-9 | Day_63 | --- | [sort_array_by_parity_II.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-9/Day_63/sort_array_by_parity_II.py) |
+| week-9 | Day_62 | --- | [majority_element.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-9/Day_62/majority_element.py) |
+| week-9 | Day_60 | --- | [binary_search.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-9/Day_60/binary_search.py) |
+| week-9 | Day_58 | --- | [intersection_of_two_linked_list.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-9/Day_58/intersection_of_two_linked_list.py) |
+| week-10 | Day_70 | --- | [swao_salary.sql](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-10/Day_70/swao_salary.sql) |
+| week-10 | Day_70 | --- | [big_countries.sql](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-10/Day_70/big_countries.sql) |
+| week-10 | Day_68 | --- | [range_sum_of_bst.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-10/Day_68/range_sum_of_bst.py) |
+| week-10 | Day_65 | --- | [maximum_product_of_two_element_in_an_array.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-10/Day_65/maximum_product_of_two_element_in_an_array.py) |
+| week-10 | Day_69 | --- | [number_of_1_bits.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-10/Day_69/number_of_1_bits.py) |
+| week-10 | Day_66 | --- | [destination_city.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-10/Day_66/destination_city.py) |
+| week-10 | Day_67 | --- | [shortest_distance_to_a_character.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-10/Day_67/shortest_distance_to_a_character.py) |
+| week-10 | Day_64 | --- | [generate_a_string_with_characters_that_have_odd_counts.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-10/Day_64/generate_a_string_with_characters_that_have_odd_counts.py) |
+| week-11 | Day_76 | --- | [same_tree.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_76/same_tree.py) |
+| week-11 | Day_77 | --- | [path_sum.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_77/path_sum.py) |
+| week-11 | Day_74 | --- | [spiral_matrix.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_74/spiral_matrix.py) |
+| week-11 | Day_71 | --- | [merge_intervals.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_71/merge_intervals.py) |
+| week-11 | Day_71 | --- | [counting_bits.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_71/counting_bits.py) |
+| week-11 | Day_73 | --- | [average_levels_in_binary_tree.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_73/average_levels_in_binary_tree.py) |
+| week-11 | Day_72 | --- | [binary_tree_level_order_traversal.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_72/binary_tree_level_order_traversal.py) |
+| week-11 | Day_72 | --- | [binary_tree_level_order_traversal_II.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_72/binary_tree_level_order_traversal_II.py) |
+| week-11 | Day_75 | --- | [minimum_depth_of_binary_tree.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_75/minimum_depth_of_binary_tree.py) |
+| week-11 | Day_75 | --- | [maximum_depth_of_binary_tree.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-11/Day_75/maximum_depth_of_binary_tree.py) |
+| week-12 | Day_83 | --- | [find_all_duplicates_in_an_array.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_83/find_all_duplicates_in_an_array.py) |
+| week-12 | Day_82 | --- | [product_of_array_except_self.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_82/product_of_array_except_self.py) |
+| week-12 | Day_82 | --- | [find_the_duplicate_numbers.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_82/find_the_duplicate_numbers.py) |
+| week-12 | Day_78 | --- | [diameter_of_binary_tree.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_78/diameter_of_binary_tree.py) |
+| week-12 | Day_81 | --- | [backspace_string_compare.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_81/backspace_string_compare.py) |
+| week-12 | Day_79 | --- | [merge_two_binary_tree.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_79/merge_two_binary_tree.py) |
+| week-12 | Day_79 | --- | [4sum.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_79/4sum.py) |
+| week-12 | Day_80 | --- | [lowest_common_ancestor_of_a_binary_tree.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_80/lowest_common_ancestor_of_a_binary_tree.py) |
+| week-12 | Day_84 | --- | [set_matrix_zeroes.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-12/Day_84/set_matrix_zeroes.py) |
+| week-13 | Day_90 | --- | [permutations.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-13/Day_90/permutations.py) |
+| week-13 | Day_88 | --- | [arithmetic_slices.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-13/Day_88/arithmetic_slices.py) |
+| week-13 | Day_85 | --- | [rotate_image.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-13/Day_85/rotate_image.py) |
+| week-13 | Day_91 | --- | [permutations_II.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-13/Day_91/permutations_II.py) |
+| week-13 | Day_86 | --- | [island_perimeter.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-13/Day_86/island_perimeter.py) |
+| week-13 | Day_89 | --- | [subsets_II.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-13/Day_89/subsets_II.py) |
+| week-13 | Day_87 | --- | [power_set.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-13/Day_87/power_set.py) |
+| week-13 | Day_87 | --- | [word_search.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-13/Day_87/word_search.py) |
+| week-14 | Day_92 | --- | [add_two_numbers_II.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-14/Day_92/add_two_numbers_II.py) |
+| week-14 | Day_98 | --- | [can_place_flowers.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-14/Day_98/can_place_flowers.py) |
+| week-14 | Day_96 | --- | [distribute_candies_to_people.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-14/Day_96/distribute_candies_to_people.py) |
+| week-14 | Day_97 | --- | [brick_wall.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-14/Day_97/brick_wall.py) |
+| week-14 | Day_93 | --- | [convert_to_base_-2.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-14/Day_93/convert_to_base_-2.py) |
+| week-14 | Day_94 | --- | [2_keys_keyboard.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-14/Day_94/2_keys_keyboard.py) |
+| week-14 | Day_95 | --- | [additive_number.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-14/Day_95/additive_number.py) |
+| week-15 | Day_100 | --- | [intersection_of_two_arrays_II.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-15/Day_100/intersection_of_two_arrays_II.py) |
+| week-15 | Day_99 | --- | [make_arithmetic_progression.py](https://github.com/shahriar100/100_days_LeetCode_challenge/blob/master/week-15/Day_99/make_arithmetic_progression.py) |
